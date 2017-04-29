@@ -417,9 +417,9 @@ class Game(StateMachine):
         render_buffer.blit(img_ready, (x, y))
 
     def _game_enter(self):
-        #pygame.mixer.music.load('bgmGame.wav')
-        #pygame.mixer.music.set_volume(0.25)
-        #pygame.mixer.music.play(-1)
+        # pygame.mixer.music.load('bgm.wav')
+        # pygame.mixer.music.set_volume(0.5)
+        # pygame.mixer.music.play(-1)
         pass
 
     def _game_update(self):
